@@ -1,0 +1,224 @@
+ssh-keygen -t ed25519
+ll
+cd .ssh/
+ll
+cat id_ed25519.pub
+mkdir repogit
+ll
+cd repogit/
+ll
+git clone git@github.com:mahumada24/TP_AySO.git
+git clone https://github.com/mahumada24/TP_AySO.git
+ll
+cd TP_AySO/
+ll
+cat /etc/os-relase
+pwd
+ls -l
+grep
+grep --help
+man grep
+grep -i home_url /etc/os-release
+grep -i https://www.ubuntu.com /etc/os-release
+whoami
+echo "Usuario = $(whoami)" > datos_usuario.txt
+ll
+git add .
+git config --global user.email "marcos-ahumada@hotmail.com"
+git config --global user.name "mahumada24"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+cd ..
+ll
+cpuinfo
+cpu-info
+apt install cpuinfo
+y
+E
+YES
+cd repogit/TP_AySO/
+echo "usuario = $(whoami)" > datos_usuario.txt 
+cat datos_usuario.txt 
+echo | grep "model name" /proc/cpuinfo >>  datos_usuario.txt
+cat datos_usuario.txt 
+echo | grep "model name" /proc/cpuinfo >  datos_usuario.txt
+cat datos_usuario.txt 
+echo "usuario = $(whoami)" > datos_usuario.txt 
+echo | grep "model name" tail-n1 /proc/cpuinfo >  datos_usuario.txt
+echo | grep | tail-n1 "model name" /proc/cpuinfo >  datos_usuario.txt
+grep --help
+cat datos_usuario.txt 
+echo "usuario = $(whoami)" > datos_usuario.txt 
+cat datos_usuario.txt 
+cat datos_usuario.txt -n
+cat /proc/cpuinfo -n
+echo | grep  -n5 "model name" /proc/cpuinfo >  datos_usuario.txt
+ll
+cat datos_usuario.txt 
+echo | grep -n5 /proc/cpuinfo >  datos_usuario.txt
+cat datos_usuario.txt 
+echo | grep "5-datos usuario" /proc/cpuinfo >  datos_usuario.txt
+cat datos_usuario.txt 
+echo | grep "datos usuario" /proc/cpuinfo >  datos_usuario.txt
+cat datos_usuario.txt 
+echo | grep "datos usuario" /proc/cpuinfo >  datos_usuario.txt
+cat datos_usuario.txt 
+echo "usuario = $(whoami)" > datos_usuario.txt 
+cat datos_usuario.txt 
+echo | grep | head -n 3 /proc/cpuinfo / >> datos_usuario.txt 
+echo | grep | head -n 5 /proc/cpuinfo / >> datos_usuario.txt 
+echo | grep | head -n 5 /proc/cpuinfo >> datos_usuario.txt 
+echo | head -n 5 /proc/cpuinfo >> datos_usuario.txt 
+cat d
+cat datos_usuario.txt 
+cat datos_usuario.txt -n
+sed -i n25 datos_usuario.txt 
+cat grep "model name" /proc/cpuinfo | head -n 1 >> datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n 1 >> datos_usuario.txt
+cat datos_usuario.txt 
+echo "usuario = $(whoami)" > datos_usuario.txt 
+cat datos_usuario.txt 
+grep "model name" /proc/cpuinfo | head -n 1 >> datos_usuario.txt
+cat datos_usuario.txt 
+git push
+git add .
+git commit -m "ADD: Datos del procesador añadidos a datos_usuario.txt"
+git show
+git bash
+git push
+git commit -m "feat: Añadiendo información de CPU"
+mkdir lista_ordenada.txt
+ll
+rm -rf lista_ordenada.txt/
+ll
+touch lista_ordenada.txt
+ll
+cat lista_ordenada.txt 
+man grep
+cd repogit/TP_AySO/
+man grep
+grep -v "nologin" /etc/passwd | head -n 10 >> lista_ordenada.txt
+cat lista_ordenada.txt 
+sort -k 7 lista_ordenada.txt
+cat lista_ordenada.txt 
+echo sort -k 7 lista_ordenada.txt 
+cat lista_ordenada.txt 
+grep -v "nologin" /etc/passwd | head -n 10 sort -k 7 >> lista_ordenada.txt
+grep -v "nologin" /etc/passwd | head -n 10 | sort -k 7 >> lista_ordenada.txt
+cat lista_ordenada.txt 
+grep -v "nologin" /etc/passwd | head -n 10 | sort -k 7 > lista_ordenada.txt
+cat lista_ordenada.txt 
+git add .
+git commit -m "feat: empezando con la lista_ordenada.txt (no terminado)"
+git push
+cd ..
+ll
+cd repogit/
+ll
+cd TP_AySO/
+ll
+cd ..
+git clone git@github.com:mahumada24/TP_AySO.git
+rm TP_AySO/
+sw
+pwd
+rm -r TP_AySO/
+ll
+rm -rf TP_AySO/
+ll
+git clone git@github.com:mahumada24/TP_AySO.git
+ls -l
+ll
+cd TP_AySO/
+ll
+man grep
+grep -i https://www.ubuntu.com/ /etc/os-relase
+grep -i https://www.ubuntu.com/ /etc/os-release
+whoami
+ll
+cat datos_usuario.txt 
+git add .
+ll
+git config --global user.email "marcos-ahumada@hotmail.com"
+git config --global user.name "mahumada24"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+git push
+git status
+git show
+git status
+echo "cpu = $(cpuinfo)" >datos_usuario.txt 
+echo "cpu = $(cpu-info)" >datos_usuario.txt 
+apt install cpuinfo
+y
+yes
+ll
+cd repogit/TP_AySO/
+ll
+cat datos_usuario.txt 
+sudo cpuinfo
+sudo cpu-info
+cpu-info
+sudo apt install cpuinfo
+ll
+cd repogit/TP_AySO/
+ll
+da
+cat datos_usuario.txt 
+cat tail-n1 datos_usuario.txt
+cat | tail-n1 datos_usuario.txt
+tail-n1 datos_usuario.txt 
+cat 'd2' datos_usuario.txt 
+cat | grep tail-n1 datos_usuario.txt 
+cat | grep tail-n2 datos_usuario.txt 
+grep tail-n2 datos_usuario.txt 
+cd ..
+history
+echo“Usuario=$(whoami)”> repogit/TP_AySO/datos_usuario.txt
+grep “Usuario=$(whoami)”> repogit/TP_AySO/datos_usuario.txt
+cat /proc/cpuinfo
+grep "model name" /proc/cpuinfo >> repogit/TP_AySO/datos_usuario.txt
+cd repogit/TP_AySO/
+cat datos_usuario.txt 
+grep "model name" /proc/cpuinfo > repogit/TP_AySO/datos_usuario.txt
+cat datos_usuario.txt 
+grep "model name" head-n1 /proc/cpuinfo >> repogit/TP_AySO/datos_usuario.txt
+grep head-n1 "model name" /proc/cpuinfo >> repogit/TP_AySO/datos_usuario.txt
+sudo apt-get install man-db
+man -k network
+sudo man -k network
+sudo mandb
+sudo man -k network
+cd repogit/TP_AySO/
+echo "El comando para 'dump traffic' es 'tcpdump" > comando_dump_net.txt
+ll
+echo "Para buscar el comando, utilize 'sudo mandb' para actualizar 'man' y luego utilice 'man -k network' de acuerdo a lo indicado en la guia de comandos man para busqueda de comandos de red" >> comando_dump_net.txt
+cat comando_dump_net.txt 
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git add comando_dump_net.txt 
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git push
+ll
+cat README.md 
+echo "Alumno = Marcos Alberto Ahumada" >> README.md 
+echo "Division = 318" >> README.md 
+echo "Turno = Nocturno (18:30hs - 22:30hs)" >> README.md 
+cat README.md 
+git add README.md 
+git commit -m "feat: Se agrega el nombre de alumno, la comision y el turno"
+git add datos_usuario.txt 
+git commit -m "feat: Añadiendo información de CPU"
+git push
+git add datos_usuario.txt 
+git commit -m "feat: Añadiendo información de CPU"
+cat datos_usuario.txt 
+echo "." > datos_usuario.txt
+git add datos_usuario.txt 
+git commit -m "feat: Añadiendo información de CPU"
+git push
+grep "model name" /proc/cpuinfo | head -n 1 >> datos_usuario.txt
+cat datos_usuario.txt 
+git add datos_usuario.txt 
+git commit -m "feat: Añadiendo información de CPU"
+git push
+history -a
