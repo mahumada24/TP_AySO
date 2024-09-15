@@ -1,0 +1,2 @@
+El comando para 'dump traffic' es 'tcpdump
+Para buscar el comando, utilize 'sudo mandb' para actualizar 'man' y luego utilice 'man -k network' de acuerdo a lo indicado en la guia de comandos man para busqueda de comandos de red
